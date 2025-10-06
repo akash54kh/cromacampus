@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.heading{
+    background-color: skyblue;
+    height: 60px;
+    width: 60%;
+}
+
+.link1{
+    background-color: red;
+    height: 60px;
+    width: 10%
+}
+.link2{
+    background-color: orange;
+    height: 60px;
+    width: 10% 
+}
+.link3{
+    background-color: purple;
+    height: 60px;
+    width: 10% 
+}
+.link4{
+    background-color: greenyellow;
+    height: 60px;
+    width: 10% 
+}
+
+img{
+    width: 300px;
+}
+
+.gap{
+    height: 10px;
+}
+
+.wrapper{
+    overflow: hidden;
+}
+
+.wrapper img {
+    transition: scale 400ms;
+}
+
+.wrapper:hover img{
+    scale: 120%;
+}
