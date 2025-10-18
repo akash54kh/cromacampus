@@ -1,73 +1,40 @@
-@media ( min-width: 620px ) {
+.text-container {
+    display: grid;
+    width: 930px;
+    margin: 0 auto;
+    grid-template-columns: 60% 10% 10% 10% 10%;
+    text-align: center;
+}
+
+.heading {
+    background-color: aqua;
+}
+
+.link1 {
+    background-color: orangered;
+}
+
+.link2 {
+    background-color: yellowgreen;
+}
+
+.link3 {
+    background-color: violet
+}
+
+.link4 {
+    background-color: lightgreen;
+}
+
+.main-container {
+    width: 930px;
+    margin: 0 auto;
+}
 
 .container{
     display: flex;
     justify-content: space-between;
-    text-align: center;
-}
-.heading{
-    background-color: skyblue;
-    height: 60px;
-    width: 60%;
-}
-
-.link1{
-    background-color: red;
-    height: 60px;
-    width: 10%;
-}
-.link2{
-    background-color: orange;
-    height: 60px;
-    width: 10%;
-}
-.link3{
-    background-color: purple;
-    height: 60px;
-    width: 10%;
-}
-.link4{
-    background-color: greenyellow;
-    height: 60px;
-    width: 10%;
-}
-}
-
-@media ( max-width: 1280px ) {
-
-.container{
-    display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    text-align: center;
-}
-
-.heading{
-    background-color: skyblue;
-    height: 80px;
-    width: 30%;
-}
-
-.link1{
-    background-color: red;
-    height: 80px;
-    width: 17.5%;
-}
-.link2{
-    background-color: orange;
-    height: 80px;
-    width: 17.5%;
-}
-.link3{
-    background-color: purple;
-    height: 80px;
-    width: 17.5%;
-}
-.link4{
-    background-color: greenyellow;
-    height: 80px;
-    width: 17.5%;
-}
 }
 
 img{
